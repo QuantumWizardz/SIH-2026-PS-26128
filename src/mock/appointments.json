@@ -1,0 +1,10 @@
+[
+  {
+    "appointment_id": "APT1",
+    "slot_id": "SLOT2",
+    "farmer_id": "FR001",
+    "animal_id": "MH-COW-00421",
+    "reason": "Vaccination booster",
+    "status": "confirmed"
+  }
+]

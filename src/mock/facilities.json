@@ -1,0 +1,560 @@
+[
+  {
+    "facility_id": "F001",
+    "name": "Civil Veterinary Hospital, Patiala",
+    "type": "veterinary_facility",
+    "lat": 30.3398,
+    "lng": 76.3869,
+    "village": "Patiala",
+    "district": "Patiala",
+    "state": "Punjab",
+    "phone": "+919876543210",
+    "services": [
+      "veterinary_assessment",
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": true,
+    "capacity": "High"
+  },
+  {
+    "facility_id": "F002",
+    "name": "Veterinary Dispensary, Rajpura",
+    "type": "veterinary_facility",
+    "lat": 30.485,
+    "lng": 76.59,
+    "village": "Rajpura",
+    "district": "Patiala",
+    "state": "Punjab",
+    "phone": "+919876543211",
+    "services": [
+      "veterinary_assessment",
+      "animal_health_consultation"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F003",
+    "name": "District Vet Hospital, Sangrur",
+    "type": "veterinary_facility",
+    "lat": 30.2458,
+    "lng": 75.8421,
+    "village": "Sangrur",
+    "district": "Sangrur",
+    "state": "Punjab",
+    "phone": "+919876543212",
+    "services": [
+      "veterinary_assessment",
+      "emergency_support"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "unavailable",
+    "cold_chain": true,
+    "capacity": "Medium"
+  },
+  {
+    "facility_id": "F004",
+    "name": "Veterinary Dispensary, Malerkotla",
+    "type": "veterinary_facility",
+    "lat": 30.5222,
+    "lng": 75.8814,
+    "village": "Malerkotla",
+    "district": "Sangrur",
+    "state": "Punjab",
+    "phone": "+919876543213",
+    "services": [
+      "veterinary_assessment"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F005",
+    "name": "District Vet Hospital, Ludhiana",
+    "type": "veterinary_facility",
+    "lat": 30.901,
+    "lng": 75.8573,
+    "village": "Ludhiana",
+    "district": "Ludhiana",
+    "state": "Punjab",
+    "phone": "+919876543214",
+    "services": [
+      "veterinary_assessment",
+      "sample_collection"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": true,
+    "capacity": "High"
+  },
+  {
+    "facility_id": "F006",
+    "name": "District Vet Hospital, Bathinda",
+    "type": "veterinary_facility",
+    "lat": 30.211,
+    "lng": 74.9455,
+    "village": "Bathinda",
+    "district": "Bathinda",
+    "state": "Punjab",
+    "phone": "+919876543215",
+    "services": [
+      "veterinary_assessment"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "closed",
+    "cold_chain": true,
+    "capacity": "Medium"
+  },
+  {
+    "facility_id": "F007",
+    "name": "Local Vet Clinic, Shambhu",
+    "type": "veterinary_facility",
+    "lat": 30.46,
+    "lng": 76.61,
+    "village": "Shambhu",
+    "district": "Patiala",
+    "state": "Punjab",
+    "phone": "+919876543216",
+    "services": [
+      "veterinary_assessment",
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F008",
+    "name": "Regional Diagnostic Centre, Banur",
+    "type": "diagnostic_laboratory",
+    "lat": 30.56,
+    "lng": 76.67,
+    "village": "Banur",
+    "district": "Patiala",
+    "state": "Punjab",
+    "phone": "+919876543217",
+    "services": [
+      "diagnostic_testing",
+      "sample_collection"
+    ],
+    "diagnostic_capabilities": [
+      "FMD",
+      "LSD",
+      "PPR"
+    ],
+    "availability": "available",
+    "cold_chain": true,
+    "capacity": "Medium"
+  },
+  {
+    "facility_id": "F009",
+    "name": "State Disease Lab, Patiala",
+    "type": "diagnostic_laboratory",
+    "lat": 30.34,
+    "lng": 76.38,
+    "village": "Patiala",
+    "district": "Patiala",
+    "state": "Punjab",
+    "phone": "+919876543218",
+    "services": [
+      "diagnostic_testing",
+      "sample_collection"
+    ],
+    "diagnostic_capabilities": [
+      "FMD",
+      "LSD",
+      "PPR",
+      "HPAI",
+      "Anthrax"
+    ],
+    "availability": "unknown",
+    "cold_chain": true,
+    "capacity": "High"
+  },
+  {
+    "facility_id": "F010",
+    "name": "Rapid Response Unit",
+    "type": "emergency_veterinary_service",
+    "lat": 30.4,
+    "lng": 76.5,
+    "village": "Sirhind",
+    "district": "Fatehgarh Sahib",
+    "state": "Punjab",
+    "phone": "+919876543219",
+    "services": [
+      "emergency_support",
+      "sample_collection"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": true,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F011",
+    "name": "Rural Dispensary 11",
+    "type": "vaccination_centre",
+    "lat": 30.55,
+    "lng": 76.22,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F012",
+    "name": "Rural Dispensary 12",
+    "type": "vaccination_centre",
+    "lat": 30.6,
+    "lng": 76.24,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F013",
+    "name": "Rural Dispensary 13",
+    "type": "vaccination_centre",
+    "lat": 30.65,
+    "lng": 76.26,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F014",
+    "name": "Rural Dispensary 14",
+    "type": "vaccination_centre",
+    "lat": 30.7,
+    "lng": 76.28,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F015",
+    "name": "Rural Dispensary 15",
+    "type": "vaccination_centre",
+    "lat": 30.75,
+    "lng": 76.3,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F016",
+    "name": "Rural Dispensary 16",
+    "type": "vaccination_centre",
+    "lat": 30.8,
+    "lng": 76.32,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F017",
+    "name": "Rural Dispensary 17",
+    "type": "vaccination_centre",
+    "lat": 30.85,
+    "lng": 76.34,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F018",
+    "name": "Rural Dispensary 18",
+    "type": "vaccination_centre",
+    "lat": 30.9,
+    "lng": 76.36,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F019",
+    "name": "Rural Dispensary 19",
+    "type": "vaccination_centre",
+    "lat": 30.95,
+    "lng": 76.38,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F020",
+    "name": "Rural Dispensary 20",
+    "type": "vaccination_centre",
+    "lat": 31.0,
+    "lng": 76.4,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F021",
+    "name": "Rural Dispensary 21",
+    "type": "vaccination_centre",
+    "lat": 31.05,
+    "lng": 76.42,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F022",
+    "name": "Rural Dispensary 22",
+    "type": "vaccination_centre",
+    "lat": 31.1,
+    "lng": 76.44,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F023",
+    "name": "Rural Dispensary 23",
+    "type": "vaccination_centre",
+    "lat": 31.15,
+    "lng": 76.46,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F024",
+    "name": "Rural Dispensary 24",
+    "type": "vaccination_centre",
+    "lat": 31.2,
+    "lng": 76.48,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F025",
+    "name": "Rural Dispensary 25",
+    "type": "vaccination_centre",
+    "lat": 31.25,
+    "lng": 76.5,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F026",
+    "name": "Rural Dispensary 26",
+    "type": "vaccination_centre",
+    "lat": 31.3,
+    "lng": 76.52,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F027",
+    "name": "Rural Dispensary 27",
+    "type": "vaccination_centre",
+    "lat": 31.35,
+    "lng": 76.54,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F028",
+    "name": "Rural Dispensary 28",
+    "type": "vaccination_centre",
+    "lat": 31.4,
+    "lng": 76.56,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F029",
+    "name": "Rural Dispensary 29",
+    "type": "vaccination_centre",
+    "lat": 31.45,
+    "lng": 76.58,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  },
+  {
+    "facility_id": "F030",
+    "name": "Rural Dispensary 30",
+    "type": "vaccination_centre",
+    "lat": 31.5,
+    "lng": 76.6,
+    "village": "Rural",
+    "district": "Unknown",
+    "state": "Punjab",
+    "phone": "+919000000000",
+    "services": [
+      "vaccination"
+    ],
+    "diagnostic_capabilities": [],
+    "availability": "available",
+    "cold_chain": false,
+    "capacity": "Low"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "districts": {
+    "Patiala":  { "tempC": 32, "humidityPct": 78, "rainfallLast7dMm": 145, "forecast": [{"day":1,"tempC":31,"humidityPct":80},{"day":2,"tempC":30,"humidityPct":82},{"day":3,"tempC":32,"humidityPct":75}] },
+    "Sangrur":  { "tempC": 33, "humidityPct": 74, "rainfallLast7dMm": 22, "forecast": [{"day":1,"tempC":33,"humidityPct":72},{"day":2,"tempC":32,"humidityPct":76},{"day":3,"tempC":31,"humidityPct":78}] },
+    "Ludhiana": { "tempC": 31, "humidityPct": 70, "rainfallLast7dMm": 15, "forecast": [{"day":1,"tempC":30,"humidityPct":71},{"day":2,"tempC":29,"humidityPct":73},{"day":3,"tempC":30,"humidityPct":69}] },
+    "Bathinda": { "tempC": 35, "humidityPct": 55, "rainfallLast7dMm": 6,  "forecast": [{"day":1,"tempC":35,"humidityPct":53},{"day":2,"tempC":36,"humidityPct":50},{"day":3,"tempC":34,"humidityPct":57}] }
+  },
+  "daily": [
+    { "district": "Patiala", "date": "2026-09-08", "rainfall_mm": 48.5, "temperature_c": 29.4, "humidity_percent": 86 },
+    { "district": "Patiala", "date": "2026-09-07", "rainfall_mm": 35.0, "temperature_c": 30.1, "humidity_percent": 84 },
+    { "district": "Patiala", "date": "2026-09-06", "rainfall_mm": 20.0, "temperature_c": 31.0, "humidity_percent": 82 },
+    { "district": "Patiala", "date": "2026-09-05", "rainfall_mm": 10.0, "temperature_c": 32.0, "humidity_percent": 80 },
+    { "district": "Patiala", "date": "2026-09-04", "rainfall_mm": 15.0, "temperature_c": 31.5, "humidity_percent": 85 },
+    { "district": "Patiala", "date": "2026-09-03", "rainfall_mm": 12.0, "temperature_c": 30.5, "humidity_percent": 83 },
+    { "district": "Patiala", "date": "2026-09-02", "rainfall_mm": 4.5,  "temperature_c": 32.5, "humidity_percent": 80 },
+    { "district": "Bathinda", "date": "2026-09-08", "rainfall_mm": 0.0, "temperature_c": 35.5, "humidity_percent": 52 },
+    { "district": "Bathinda", "date": "2026-09-07", "rainfall_mm": 0.0, "temperature_c": 36.1, "humidity_percent": 50 },
+    { "district": "Bathinda", "date": "2026-09-06", "rainfall_mm": 2.0, "temperature_c": 35.0, "humidity_percent": 55 },
+    { "district": "Bathinda", "date": "2026-09-05", "rainfall_mm": 0.0, "temperature_c": 36.5, "humidity_percent": 48 },
+    { "district": "Bathinda", "date": "2026-09-04", "rainfall_mm": 4.0, "temperature_c": 34.5, "humidity_percent": 58 },
+    { "district": "Bathinda", "date": "2026-09-03", "rainfall_mm": 0.0, "temperature_c": 35.5, "humidity_percent": 54 },
+    { "district": "Bathinda", "date": "2026-09-02", "rainfall_mm": 0.0,  "temperature_c": 36.0, "humidity_percent": 51 }
+  ]
+}

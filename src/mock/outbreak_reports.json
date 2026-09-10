@@ -1,0 +1,14 @@
+[
+  { "id": "R001", "villageId": "V01", "disease": "FMD", "species": "cattle", "cases": 34, "deaths": 2, "status": "confirmed", "reportedDate": "2026-09-02", "reportedBy": "Field Vet - Rajpura" },
+  { "id": "R002", "villageId": "V02", "disease": "FMD", "species": "cattle", "cases": 19, "deaths": 1, "status": "confirmed", "reportedDate": "2026-09-05", "reportedBy": "Para-vet Worker" },
+  { "id": "R003", "villageId": "V06", "disease": "FMD", "species": "buffalo", "cases": 6, "deaths": 0, "status": "suspected", "reportedDate": "2026-09-08", "reportedBy": "Farmer App" },
+  { "id": "R004", "villageId": "V09", "disease": "LSD", "species": "cattle", "cases": 27, "deaths": 3, "status": "confirmed", "reportedDate": "2026-08-30", "reportedBy": "Field Vet - Malerkotla" },
+  { "id": "R005", "villageId": "V07", "disease": "LSD", "species": "cattle", "cases": 8, "deaths": 0, "status": "suspected", "reportedDate": "2026-09-07", "reportedBy": "Farmer App" },
+  { "id": "R006", "villageId": "V14", "disease": "PPR", "species": "goat", "cases": 41, "deaths": 6, "status": "confirmed", "reportedDate": "2026-08-27", "reportedBy": "Field Vet - Rampura" },
+  { "id": "R007", "villageId": "V15", "disease": "PPR", "species": "sheep", "cases": 15, "deaths": 1, "status": "confirmed", "reportedDate": "2026-09-01", "reportedBy": "Para-vet Worker" },
+  { "id": "R008", "villageId": "V11", "disease": "AvianFlu", "species": "poultry", "cases": 120, "deaths": 45, "status": "confirmed", "reportedDate": "2026-09-04", "reportedBy": "Poultry Farm Inspector" },
+  { "id": "R009", "villageId": "V05", "disease": "Anthrax", "species": "cattle", "cases": 2, "deaths": 2, "status": "suspected", "reportedDate": "2026-09-08", "reportedBy": "Farmer App", "zoonotic": true },
+  { "id": "R010", "villageId": "V03", "disease": "HS", "species": "buffalo", "cases": 5, "deaths": 1, "status": "contained", "reportedDate": "2026-08-20", "reportedBy": "Field Vet - Nabha" },
+  { "id": "R011", "villageId": "V08", "disease": "LSD", "species": "cattle", "cases": 3, "deaths": 0, "status": "suspected", "reportedDate": "2026-09-09", "reportedBy": "Farmer App" },
+  { "id": "R012", "villageId": "V04", "disease": "PPR", "species": "goat", "cases": 4, "deaths": 0, "status": "suspected", "reportedDate": "2026-09-06", "reportedBy": "Para-vet Worker" }
+]

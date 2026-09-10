@@ -1,0 +1,20 @@
+[
+  {
+    "slot_id": "SLOT1",
+    "facility_id": "F001",
+    "date": "2026-09-10",
+    "start_time": "10:00",
+    "end_time": "10:30",
+    "status": "available",
+    "vet_id": "VET001"
+  },
+  {
+    "slot_id": "SLOT2",
+    "facility_id": "F001",
+    "date": "2026-09-10",
+    "start_time": "10:30",
+    "end_time": "11:00",
+    "status": "booked",
+    "vet_id": "VET001"
+  }
+]

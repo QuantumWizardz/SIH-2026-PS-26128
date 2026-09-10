@@ -1,0 +1,17 @@
+[
+  { "id": "V01", "name": "Rajpura", "district": "Patiala", "block": "Rajpura", "lat": 30.4841, "lng": 76.5940, "cattlePop": 8200, "goatPop": 1400, "poultryPop": 3000, "vaccinationCoverage": 58 },
+  { "id": "V02", "name": "Ghanaur", "district": "Patiala", "block": "Ghanaur", "lat": 30.3550, "lng": 76.6400, "cattlePop": 5100, "goatPop": 900, "poultryPop": 1200, "vaccinationCoverage": 49 },
+  { "id": "V03", "name": "Nabha", "district": "Patiala", "block": "Nabha", "lat": 30.3728, "lng": 76.1511, "cattlePop": 6700, "goatPop": 1100, "poultryPop": 2000, "vaccinationCoverage": 71 },
+  { "id": "V04", "name": "Samana", "district": "Patiala", "block": "Samana", "lat": 30.1602, "lng": 76.1902, "cattlePop": 4300, "goatPop": 1600, "poultryPop": 1800, "vaccinationCoverage": 66 },
+  { "id": "V05", "name": "Patran", "district": "Patiala", "block": "Patran", "lat": 30.1889, "lng": 75.9767, "cattlePop": 3900, "goatPop": 2100, "poultryPop": 900, "vaccinationCoverage": 44 },
+  { "id": "V06", "name": "Bhadson", "district": "Patiala", "block": "Bhadson", "lat": 30.4333, "lng": 76.2333, "cattlePop": 5000, "goatPop": 800, "poultryPop": 1000, "vaccinationCoverage": 62 },
+  { "id": "V07", "name": "Sangrur", "district": "Sangrur", "block": "Sangrur", "lat": 30.2458, "lng": 75.8421, "cattlePop": 7200, "goatPop": 1300, "poultryPop": 2500, "vaccinationCoverage": 77 },
+  { "id": "V08", "name": "Dhuri", "district": "Sangrur", "block": "Dhuri", "lat": 30.3667, "lng": 75.8500, "cattlePop": 4600, "goatPop": 1000, "poultryPop": 1500, "vaccinationCoverage": 68 },
+  { "id": "V09", "name": "Malerkotla", "district": "Sangrur", "block": "Malerkotla", "lat": 30.5222, "lng": 75.8814, "cattlePop": 5300, "goatPop": 2200, "poultryPop": 1700, "vaccinationCoverage": 53 },
+  { "id": "V10", "name": "Sunam", "district": "Sangrur", "block": "Sunam", "lat": 30.1300, "lng": 75.8000, "cattlePop": 3800, "goatPop": 1500, "poultryPop": 1100, "vaccinationCoverage": 60 },
+  { "id": "V11", "name": "Khanna", "district": "Ludhiana", "block": "Khanna", "lat": 30.7046, "lng": 76.2222, "cattlePop": 4100, "goatPop": 700, "poultryPop": 9500, "vaccinationCoverage": 81 },
+  { "id": "V12", "name": "Samrala", "district": "Ludhiana", "block": "Samrala", "lat": 30.8367, "lng": 76.1900, "cattlePop": 3600, "goatPop": 650, "poultryPop": 4200, "vaccinationCoverage": 74 },
+  { "id": "V13", "name": "Payal", "district": "Ludhiana", "block": "Payal", "lat": 30.7300, "lng": 75.9300, "cattlePop": 3300, "goatPop": 600, "poultryPop": 2800, "vaccinationCoverage": 69 },
+  { "id": "V14", "name": "Rampura Phul", "district": "Bathinda", "block": "Rampura Phul", "lat": 30.2667, "lng": 75.1333, "cattlePop": 4900, "goatPop": 2600, "poultryPop": 800, "vaccinationCoverage": 39 },
+  { "id": "V15", "name": "Talwandi Sabo", "district": "Bathinda", "block": "Talwandi Sabo", "lat": 29.9833, "lng": 75.0833, "cattlePop": 4200, "goatPop": 2400, "poultryPop": 700, "vaccinationCoverage": 41 }
+]

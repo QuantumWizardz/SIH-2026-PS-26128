@@ -1,0 +1,71 @@
+{
+  "markets": [
+    { "market_id": "M1", "name": "Rajpura Cattle Mandi", "lat": 30.4800, "lng": 76.5950, "capacity": "High" },
+    { "market_id": "M2", "name": "Sangrur Livestock Market", "lat": 30.2460, "lng": 75.8400, "capacity": "High" },
+    { "market_id": "M3", "name": "Khanna Poultry & Cattle Market", "lat": 30.7050, "lng": 76.2200, "capacity": "Medium" },
+    { "market_id": "M4", "name": "Bathinda Regional Mandi", "lat": 30.2100, "lng": 74.9500, "capacity": "High" }
+  ],
+  "routes": [
+    {
+      "route_id": "RT1",
+      "name": "Rajpura-Banur Corridor",
+      "type": "primary",
+      "waypoints": [
+        { "lat": 30.4800, "lng": 76.5950 },
+        { "lat": 30.5000, "lng": 76.6200 },
+        { "lat": 30.5400, "lng": 76.6500 },
+        { "lat": 30.5600, "lng": 76.6700 }
+      ]
+    },
+    {
+      "route_id": "RT2",
+      "name": "Rajpura-Ghanaur Local",
+      "type": "secondary",
+      "waypoints": [
+        { "lat": 30.4800, "lng": 76.5950 },
+        { "lat": 30.4200, "lng": 76.6100 },
+        { "lat": 30.3550, "lng": 76.6400 }
+      ]
+    },
+    {
+      "route_id": "RT3",
+      "name": "Sangrur-Malerkotla Highway",
+      "type": "primary",
+      "waypoints": [
+        { "lat": 30.2460, "lng": 75.8400 },
+        { "lat": 30.3500, "lng": 75.8600 },
+        { "lat": 30.5222, "lng": 75.8814 }
+      ]
+    },
+    {
+      "route_id": "RT4",
+      "name": "Khanna-Ludhiana Route",
+      "type": "primary",
+      "waypoints": [
+        { "lat": 30.7050, "lng": 76.2200 },
+        { "lat": 30.8000, "lng": 76.0000 },
+        { "lat": 30.9010, "lng": 75.8573 }
+      ]
+    },
+    {
+      "route_id": "RT5",
+      "name": "Bathinda Rural Circuit",
+      "type": "secondary",
+      "waypoints": [
+        { "lat": 30.2100, "lng": 74.9500 },
+        { "lat": 30.2500, "lng": 75.0500 },
+        { "lat": 30.2660, "lng": 75.1330 }
+      ]
+    },
+    {
+      "route_id": "RT6",
+      "name": "Patiala-Bhadson Route",
+      "type": "secondary",
+      "waypoints": [
+        { "lat": 30.3398, "lng": 76.3869 },
+        { "lat": 30.3800, "lng": 76.3000 },
+        { "lat": 30.4333, "lng": 76.2333 }
+      ]
+    }
+  ]
+}

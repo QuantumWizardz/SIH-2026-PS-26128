@@ -1,0 +1,8 @@
+[
+  { "id": "H1", "name": "Civil Veterinary Hospital, Patiala", "lat": 30.3398, "lng": 76.3869, "coldChain": true,  "capacity": "High" },
+  { "id": "H2", "name": "Veterinary Dispensary, Rajpura",     "lat": 30.4850, "lng": 76.5900, "coldChain": false, "capacity": "Low" },
+  { "id": "H3", "name": "District Vet Hospital, Sangrur",     "lat": 30.2458, "lng": 75.8421, "coldChain": true,  "capacity": "Medium" },
+  { "id": "H4", "name": "Veterinary Dispensary, Malerkotla",  "lat": 30.5222, "lng": 75.8814, "coldChain": false, "capacity": "Low" },
+  { "id": "H5", "name": "District Vet Hospital, Ludhiana",    "lat": 30.9010, "lng": 75.8573, "coldChain": true,  "capacity": "High" },
+  { "id": "H6", "name": "District Vet Hospital, Bathinda",    "lat": 30.2110, "lng": 74.9455, "coldChain": true,  "capacity": "Medium" }
+]

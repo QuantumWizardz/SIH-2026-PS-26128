@@ -1,0 +1,602 @@
+[
+  {
+    "herd_id": "H_RAJ_00",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_00",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_01",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_01",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_02",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_02",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_03",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_03",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_04",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_04",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_05",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_05",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_06",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_06",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_07",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_07",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_08",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_08",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_09",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_09",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_10",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_10",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_11",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_11",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_12",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_12",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_13",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_13",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_14",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_14",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_15",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_15",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_16",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_16",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_17",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_17",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_18",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_18",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_19",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_19",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_20",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_20",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_21",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_21",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_22",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_22",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_23",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_23",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_24",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_24",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_25",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_25",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_26",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_26",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_27",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_27",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_28",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_28",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_29",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_29",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_30",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_30",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_31",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_31",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_32",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_32",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_33",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_33",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_34",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_34",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_35",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_35",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_36",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_36",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_37",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_37",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_38",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_38",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_39",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_39",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 6,
+    "vaccination_coverage": 60,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_40",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_40",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 5,
+    "vaccination_coverage": 50,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_41",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_41",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 5,
+    "vaccination_coverage": 50,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_42",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_42",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 5,
+    "vaccination_coverage": 50,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_43",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_43",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 5,
+    "vaccination_coverage": 50,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_44",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_44",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 5,
+    "vaccination_coverage": 50,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_45",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_45",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 5,
+    "vaccination_coverage": 50,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_46",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_46",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 5,
+    "vaccination_coverage": 50,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_47",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_47",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 5,
+    "vaccination_coverage": 50,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_48",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_48",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 5,
+    "vaccination_coverage": 50,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_RAJ_49",
+    "village_id": "V01",
+    "farmer_id": "FR_RAJ_49",
+    "species": "cattle",
+    "animal_count": 10,
+    "vaccinated_count": 5,
+    "vaccination_coverage": 50,
+    "last_vaccination_date": "2026-03-15"
+  },
+  {
+    "herd_id": "H_OTHER_00",
+    "village_id": "V02",
+    "farmer_id": "FR_OTH_00",
+    "species": "goat",
+    "animal_count": 37,
+    "vaccinated_count": 25,
+    "vaccination_coverage": 68,
+    "last_vaccination_date": "2025-11-10"
+  },
+  {
+    "herd_id": "H_OTHER_01",
+    "village_id": "V09",
+    "farmer_id": "FR_OTH_01",
+    "species": "sheep",
+    "animal_count": 33,
+    "vaccinated_count": 16,
+    "vaccination_coverage": 48,
+    "last_vaccination_date": "2025-11-10"
+  },
+  {
+    "herd_id": "H_OTHER_02",
+    "village_id": "V09",
+    "farmer_id": "FR_OTH_02",
+    "species": "cattle",
+    "animal_count": 26,
+    "vaccinated_count": 24,
+    "vaccination_coverage": 92,
+    "last_vaccination_date": "2025-11-10"
+  },
+  {
+    "herd_id": "H_OTHER_03",
+    "village_id": "V07",
+    "farmer_id": "FR_OTH_03",
+    "species": "sheep",
+    "animal_count": 8,
+    "vaccinated_count": 8,
+    "vaccination_coverage": 100,
+    "last_vaccination_date": "2025-11-10"
+  },
+  {
+    "herd_id": "H_OTHER_04",
+    "village_id": "V09",
+    "farmer_id": "FR_OTH_04",
+    "species": "sheep",
+    "animal_count": 20,
+    "vaccinated_count": 13,
+    "vaccination_coverage": 65,
+    "last_vaccination_date": "2025-11-10"
+  },
+  {
+    "herd_id": "H_OTHER_05",
+    "village_id": "V02",
+    "farmer_id": "FR_OTH_05",
+    "species": "goat",
+    "animal_count": 21,
+    "vaccinated_count": 11,
+    "vaccination_coverage": 52,
+    "last_vaccination_date": "2025-11-10"
+  },
+  {
+    "herd_id": "H_OTHER_06",
+    "village_id": "V09",
+    "farmer_id": "FR_OTH_06",
+    "species": "buffalo",
+    "animal_count": 30,
+    "vaccinated_count": 16,
+    "vaccination_coverage": 53,
+    "last_vaccination_date": "2025-11-10"
+  },
+  {
+    "herd_id": "H_OTHER_07",
+    "village_id": "V07",
+    "farmer_id": "FR_OTH_07",
+    "species": "pig",
+    "animal_count": 28,
+    "vaccinated_count": 24,
+    "vaccination_coverage": 86,
+    "last_vaccination_date": "2025-11-10"
+  },
+  {
+    "herd_id": "H_OTHER_08",
+    "village_id": "V14",
+    "farmer_id": "FR_OTH_08",
+    "species": "buffalo",
+    "animal_count": 16,
+    "vaccinated_count": 4,
+    "vaccination_coverage": 25,
+    "last_vaccination_date": "2025-11-10"
+  },
+  {
+    "herd_id": "H_OTHER_09",
+    "village_id": "V03",
+    "farmer_id": "FR_OTH_09",
+    "species": "buffalo",
+    "animal_count": 7,
+    "vaccinated_count": 3,
+    "vaccination_coverage": 43,
+    "last_vaccination_date": "2025-11-10"
+  }
+]

@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-cream text-espresso antialiased font-sans;
+    /* Pinstripe/ribbed-paper texture over the cream background */
+    background-image: repeating-linear-gradient(
+      90deg,
+      rgba(56, 44, 42, 0.028) 0,
+      rgba(56, 44, 42, 0.028) 1px,
+      transparent 1px,
+      transparent 7px
+    );
+    background-color: theme('colors.cream');
+  }
+
+  /* Focus ring for keyboard users */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-terracotta ring-offset-2 ring-offset-cream;
+  }
+}
+
+@layer utilities {
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}

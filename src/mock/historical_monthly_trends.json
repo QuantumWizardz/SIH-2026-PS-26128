@@ -1,0 +1,14 @@
+[
+  { "month": "2025-10", "FMD": 12, "LSD": 8,  "PPR": 20, "AvianFlu": 5,  "HS": 6 },
+  { "month": "2025-11", "FMD": 9,  "LSD": 6,  "PPR": 34, "AvianFlu": 14, "HS": 4 },
+  { "month": "2025-12", "FMD": 7,  "LSD": 5,  "PPR": 48, "AvianFlu": 27, "HS": 3 },
+  { "month": "2026-01", "FMD": 6,  "LSD": 4,  "PPR": 52, "AvianFlu": 31, "HS": 2 },
+  { "month": "2026-02", "FMD": 8,  "LSD": 5,  "PPR": 41, "AvianFlu": 22, "HS": 3 },
+  { "month": "2026-03", "FMD": 11, "LSD": 9,  "PPR": 25, "AvianFlu": 11, "HS": 5 },
+  { "month": "2026-04", "FMD": 15, "LSD": 14, "PPR": 14, "AvianFlu": 4,  "HS": 9 },
+  { "month": "2026-05", "FMD": 19, "LSD": 21, "PPR": 9,  "AvianFlu": 2,  "HS": 14 },
+  { "month": "2026-06", "FMD": 26, "LSD": 29, "PPR": 6,  "AvianFlu": 1,  "HS": 21 },
+  { "month": "2026-07", "FMD": 38, "LSD": 41, "PPR": 5,  "AvianFlu": 1,  "HS": 33 },
+  { "month": "2026-08", "FMD": 44, "LSD": 47, "PPR": 7,  "AvianFlu": 2,  "HS": 29 },
+  { "month": "2026-09", "FMD": 31, "LSD": 35, "PPR": 11, "AvianFlu": 3,  "HS": 18 }
+]

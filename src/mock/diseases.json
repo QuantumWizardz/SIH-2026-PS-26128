@@ -1,0 +1,170 @@
+[
+  {
+    "id": "fmd_001",
+    "disease_name": { "en": "Foot-and-Mouth Disease", "hi": "खुरपका-मुंहपका रोग", "pa": "ਖੁਰ-ਮੂੰਹ ਦੀ ਬਿਮਾਰੀ" },
+    "abbreviation": "FMD",
+    "species_affected": ["Cattle", "Buffalo", "Sheep", "Goat", "Pig"],
+    "zoonotic": false,
+    "symptoms": {
+      "early": [ { "name": "High fever (104-106°F)", "weight": 6 }, { "name": "Loss of appetite", "weight": 3 }, { "name": "Reduced milk yield", "weight": 4 } ],
+      "late": [ { "name": "Blisters on mouth, tongue, gums", "weight": 10 }, { "name": "Blisters between hooves / foot", "weight": 10 }, { "name": "Excessive salivation and drooling", "weight": 9 }, { "name": "Lameness / reluctance to walk", "weight": 7 } ]
+    },
+    "incubation_period_days": { "min": 2, "max": 14, "typical": 5 },
+    "transmission_mode": ["Direct contact", "Airborne (up to 60 km)", "Contaminated fodder/water", "Fomites (vehicles, handlers, equipment)"],
+    "severity": "High",
+    "mortality_characteristics": { "adult_mortality_rate_pct": 2, "young_mortality_rate_pct": 50, "note": "Low mortality in adults; high in young calves due to myocarditis" },
+    "geographic_prevalence": ["Punjab", "Haryana", "Uttar Pradesh", "Rajasthan", "Gujarat"],
+    "seasonality": { "peak_months": ["July", "August", "September", "October"], "note": "Peaks post-monsoon due to congregation at shared water/grazing points" },
+    "vaccination": { "vaccine_name": "FMD Polyvalent Vaccine (O, A, Asia-1)", "schedule": "Biannual, every 6 months under NADCP", "efficacy_pct": 85, "govt_program": "National Animal Disease Control Programme (NADCP)" },
+    "treatment_supportive_management": ["Isolate affected animals immediately", "Soft, easily digestible feed", "Antiseptic mouth/foot wash (e.g. potassium permanganate)", "Antibiotics for secondary bacterial infection", "Oral rehydration / supportive fluids"],
+    "reporting_urgency": { "notifiable": true, "urgency_level": "Immediate (24h)", "reporting_authority": "State Animal Husbandry Dept / nearest Veterinary Dispensary", "legal_basis": "Prevention & Control of Infectious & Contagious Diseases in Animals Act, 2009" },
+    "recommended_containment_action": ["Quarantine farm; 10 km surveillance zone", "Restrict animal movement/markets in area for 30 days", "Disinfect sheds, vehicles, equipment (citric acid/sodium carbonate)", "Ring-vaccinate unaffected animals in radius", "Report to District Animal Husbandry Officer"]
+  },
+  {
+    "id": "lsd_002",
+    "disease_name": { "en": "Lumpy Skin Disease", "hi": "लम्पी त्वचा रोग", "pa": "ਲੰਪੀ ਸਕਿਨ ਬਿਮਾਰੀ" },
+    "abbreviation": "LSD",
+    "species_affected": ["Cattle", "Buffalo"],
+    "zoonotic": false,
+    "symptoms": {
+      "early": [ { "name": "Fever (up to 105°F)", "weight": 5 }, { "name": "Watery eyes/nasal discharge", "weight": 4 }, { "name": "Drop in milk yield", "weight": 4 } ],
+      "late": [ { "name": "Firm skin nodules (2-5 cm) all over body", "weight": 10 }, { "name": "Swollen lymph nodes", "weight": 7 }, { "name": "Swelling of limbs", "weight": 6 }, { "name": "Nodules ulcerating/scabbing", "weight": 8 } ]
+    },
+    "incubation_period_days": { "min": 4, "max": 14, "typical": 7 },
+    "transmission_mode": ["Blood-feeding insects (mosquitoes, flies, ticks)", "Direct contact", "Contaminated fomites"],
+    "severity": "Medium",
+    "mortality_characteristics": { "adult_mortality_rate_pct": 5, "young_mortality_rate_pct": 15, "note": "Morbidity high (up to 45%); mortality usually low but production loss is severe" },
+    "geographic_prevalence": ["Rajasthan", "Punjab", "Haryana", "Gujarat", "Uttar Pradesh", "Himachal Pradesh"],
+    "seasonality": { "peak_months": ["May", "June", "July", "August", "September"], "note": "Peaks with vector (fly/mosquito) activity in warm, humid months" },
+    "vaccination": { "vaccine_name": "Lumpi-ProVacInd / Goat Pox vaccine (heterologous)", "schedule": "Annual", "efficacy_pct": 80, "govt_program": "State-led emergency ring vaccination drives" },
+    "treatment_supportive_management": ["Isolate affected cattle", "Anti-inflammatory + antipyretic drugs", "Antibiotics for secondary skin infection", "Wound dressing on nodules", "Vector control (insect repellents, fly control in shed)"],
+    "reporting_urgency": { "notifiable": true, "urgency_level": "Immediate (24h)", "reporting_authority": "State Animal Husbandry Dept", "legal_basis": "Prevention & Control of Infectious & Contagious Diseases in Animals Act, 2009" },
+    "recommended_containment_action": ["Isolate infected + in-contact animals", "Vector control across a 5 km radius", "Ring vaccination of healthy cattle nearby", "Restrict cattle fairs/markets in affected block", "Disinfect sheds and equipment"]
+  },
+  {
+    "id": "ppr_003",
+    "disease_name": { "en": "Peste des Petits Ruminants", "hi": "बकरी प्लेग", "pa": "ਬੱਕਰੀ ਪਲੇਗ" },
+    "abbreviation": "PPR",
+    "species_affected": ["Goat", "Sheep"],
+    "zoonotic": false,
+    "symptoms": {
+      "early": [ { "name": "Sudden high fever (up to 106°F)", "weight": 6 }, { "name": "Depression, reduced feeding", "weight": 3 } ],
+      "late": [ { "name": "Oral erosions/ulcers", "weight": 9 }, { "name": "Severe diarrhoea", "weight": 8 }, { "name": "Nasal/ocular discharge", "weight": 6 }, { "name": "Pneumonia/coughing", "weight": 7 } ]
+    },
+    "incubation_period_days": { "min": 3, "max": 10, "typical": 5 },
+    "transmission_mode": ["Direct contact", "Aerosol/respiratory droplets", "Contaminated feed and water"],
+    "severity": "Critical",
+    "mortality_characteristics": { "adult_mortality_rate_pct": 50, "young_mortality_rate_pct": 90, "note": "Can approach 100% in naive, young or stressed flocks" },
+    "geographic_prevalence": ["Rajasthan", "Uttar Pradesh", "Madhya Pradesh", "Bihar", "West Bengal"],
+    "seasonality": { "peak_months": ["November", "December", "January", "February"], "note": "Peaks in cold, dry winter months" },
+    "vaccination": { "vaccine_name": "PPR Live Attenuated Vaccine", "schedule": "Once, with 3-yearly booster; part of national PPR eradication plan", "efficacy_pct": 90, "govt_program": "National Control Programme for PPR (NCP-PPR)" },
+    "treatment_supportive_management": ["No specific antiviral — supportive care only", "Broad-spectrum antibiotics for secondary infection", "Oral rehydration for diarrhoea", "Isolate and keep warm/dry"],
+    "reporting_urgency": { "notifiable": true, "urgency_level": "Immediate (24h)", "reporting_authority": "State Animal Husbandry Dept", "legal_basis": "Prevention & Control of Infectious & Contagious Diseases in Animals Act, 2009" },
+    "recommended_containment_action": ["Immediate isolation of flock", "Ban movement/sale of small ruminants in a 3 km radius", "Emergency ring vaccination", "Safe carcass disposal (deep burial/burning)", "Disinfect pens with 1% sodium hypochlorite"]
+  },
+  {
+    "id": "hpai_004",
+    "disease_name": { "en": "Highly Pathogenic Avian Influenza", "hi": "बर्ड फ्लू", "pa": "ਬਰਡ ਫਲੂ" },
+    "abbreviation": "HPAI",
+    "species_affected": ["Poultry"],
+    "zoonotic": true,
+    "symptoms": {
+      "early": [ { "name": "Sudden drop in feed/water intake", "weight": 5 }, { "name": "Ruffled feathers, lethargy", "weight": 4 } ],
+      "late": [ { "name": "Sudden unexplained mass mortality", "weight": 10 }, { "name": "Swollen head, cyanotic comb/wattles", "weight": 9 }, { "name": "Sharp drop in egg production", "weight": 7 }, { "name": "Respiratory distress", "weight": 6 } ]
+    },
+    "incubation_period_days": { "min": 1, "max": 7, "typical": 3 },
+    "transmission_mode": ["Migratory wild birds", "Direct contact with infected birds/droppings", "Contaminated equipment, feed, water", "Live bird markets"],
+    "severity": "Critical",
+    "mortality_characteristics": { "adult_mortality_rate_pct": 90, "young_mortality_rate_pct": 100, "note": "Can cause near-100% flock mortality within 48 hours" },
+    "geographic_prevalence": ["Kerala", "West Bengal", "Haryana", "Himachal Pradesh", "Maharashtra"],
+    "seasonality": { "peak_months": ["November", "December", "January", "February"], "note": "Correlates with migratory bird season" },
+    "vaccination": { "vaccine_name": "Not recommended (culling policy) in India", "schedule": "N/A", "efficacy_pct": 0, "govt_program": "Stamping-out policy under National Action Plan for Avian Influenza" },
+    "treatment_supportive_management": ["No treatment — notifiable, cull-only policy", "Biosecurity lockdown of premises", "PPE mandatory for handlers (zoonotic risk)"],
+    "reporting_urgency": { "notifiable": true, "urgency_level": "Immediate (24h) — dual report to Animal AND Public Health dept", "reporting_authority": "State Animal Husbandry Dept + District Health Dept (zoonotic)", "legal_basis": "National Action Plan for Prevention, Control & Containment of Avian Influenza" },
+    "recommended_containment_action": ["Immediate culling within 1 km infected zone", "10 km surveillance zone, movement ban 90 days", "Safe disposal of carcasses (burial/incineration)", "Alert public health authorities — zoonotic risk to handlers", "Disinfect and depopulate affected sheds before restocking"]
+  },
+  {
+    "id": "anthrax_005",
+    "disease_name": { "en": "Anthrax", "hi": "तिल्ली रोग / एंथ्रेक्स", "pa": "ਤਿੱਲੀ ਦੀ ਬਿਮਾਰੀ" },
+    "abbreviation": "Anthrax",
+    "species_affected": ["Cattle", "Buffalo", "Sheep", "Goat"],
+    "zoonotic": true,
+    "symptoms": {
+      "early": [ { "name": "Sudden high fever", "weight": 5 }, { "name": "Staggering, trembling", "weight": 6 } ],
+      "late": [ { "name": "Sudden death with dark, unclotted blood from body openings", "weight": 10 }, { "name": "Bloody discharge from nose/mouth/anus", "weight": 9 }, { "name": "Rapid bloating of carcass after death", "weight": 8 } ]
+    },
+    "incubation_period_days": { "min": 1, "max": 7, "typical": 3 },
+    "transmission_mode": ["Ingestion of spore-contaminated soil/fodder", "Contact with contaminated carcasses", "Biting flies (mechanical vector)"],
+    "severity": "Critical",
+    "mortality_characteristics": { "adult_mortality_rate_pct": 90, "young_mortality_rate_pct": 95, "note": "Often peracute — animal found dead with no prior signs observed" },
+    "geographic_prevalence": ["Andhra Pradesh", "Tamil Nadu", "Karnataka", "Odisha", "West Bengal"],
+    "seasonality": { "peak_months": ["June", "July", "August"], "note": "Spore exposure rises after heavy rains disturb soil" },
+    "vaccination": { "vaccine_name": "Anthrax Spore Vaccine", "schedule": "Annual, before monsoon in endemic zones", "efficacy_pct": 85, "govt_program": "State endemic-zone vaccination drives" },
+    "treatment_supportive_management": ["High-dose antibiotics (penicillin/oxytetracycline) if caught early", "DO NOT open the carcass — spores will contaminate soil for decades", "Isolate herd from carcass site immediately"],
+    "reporting_urgency": { "notifiable": true, "urgency_level": "Immediate (24h) — zoonotic emergency", "reporting_authority": "State Animal Husbandry Dept + District Health Dept", "legal_basis": "Prevention & Control of Infectious & Contagious Diseases in Animals Act, 2009" },
+    "recommended_containment_action": ["Do not open/skin the carcass — burn or bury deep (2m) with lime", "Quarantine and disinfect the site", "Vaccinate all in-contact/herd animals", "Alert public health dept — human handlers at risk", "Restrict grazing on the site for years, not days"]
+  },
+  {
+    "id": "csf_006",
+    "disease_name": { "en": "Classical Swine Fever", "hi": "सुअर बुखार", "pa": "ਸੂਰ ਬੁਖਾਰ" },
+    "abbreviation": "CSF",
+    "species_affected": ["Pig"],
+    "zoonotic": false,
+    "symptoms": {
+      "early": [ { "name": "High fever, huddling", "weight": 5 }, { "name": "Loss of appetite", "weight": 3 } ],
+      "late": [ { "name": "Purple skin discoloration (ears, abdomen, legs)", "weight": 9 }, { "name": "Staggering gait / hind-limb weakness", "weight": 7 }, { "name": "Constipation followed by diarrhoea", "weight": 6 }, { "name": "Sudden high mortality in the herd", "weight": 8 } ]
+    },
+    "incubation_period_days": { "min": 2, "max": 14, "typical": 6 },
+    "transmission_mode": ["Direct contact", "Contaminated feed (especially swill/kitchen waste)", "Fomites and vehicles"],
+    "severity": "High",
+    "mortality_characteristics": { "adult_mortality_rate_pct": 50, "young_mortality_rate_pct": 90, "note": "Acute form near-100% fatal in piglets" },
+    "geographic_prevalence": ["Assam", "Nagaland", "Mizoram", "Bihar", "West Bengal"],
+    "seasonality": { "peak_months": ["October", "November", "December"], "note": "Rises with pig-market activity around festival season" },
+    "vaccination": { "vaccine_name": "CSF Lapinized Vaccine", "schedule": "Piglets at 60-90 days, annual booster", "efficacy_pct": 90, "govt_program": "State piggery vaccination schemes" },
+    "treatment_supportive_management": ["No specific treatment — supportive care only", "Isolate sick animals", "Antibiotics only for secondary bacterial infection", "Improve feed hygiene (stop swill feeding)"],
+    "reporting_urgency": { "notifiable": true, "urgency_level": "Immediate (24h)", "reporting_authority": "State Animal Husbandry Dept", "legal_basis": "Prevention & Control of Infectious & Contagious Diseases in Animals Act, 2009" },
+    "recommended_containment_action": ["Isolate/cull severely affected animals", "Movement ban on pigs in a 3 km radius", "Ring vaccination of healthy pigs nearby", "Stop swill/kitchen-waste feeding immediately", "Disinfect sties with sodium hydroxide"]
+  },
+  {
+    "id": "hs_007",
+    "disease_name": { "en": "Haemorrhagic Septicaemia", "hi": "गलघोंटू", "pa": "ਗਲਘੋਟੂ" },
+    "abbreviation": "HS",
+    "species_affected": ["Cattle", "Buffalo"],
+    "zoonotic": false,
+    "symptoms": {
+      "early": [ { "name": "Sudden high fever (106-107°F)", "weight": 6 }, { "name": "Depression, drooling", "weight": 4 } ],
+      "late": [ { "name": "Hot, painful swelling of throat/neck", "weight": 10 }, { "name": "Difficulty breathing, protruding tongue", "weight": 8 }, { "name": "Rapid death (within 24h of onset)", "weight": 9 } ]
+    },
+    "incubation_period_days": { "min": 1, "max": 5, "typical": 2 },
+    "transmission_mode": ["Direct contact", "Contaminated feed/water", "Stress-triggered (transport, overwork, monsoon)"],
+    "severity": "Critical",
+    "mortality_characteristics": { "adult_mortality_rate_pct": 80, "young_mortality_rate_pct": 60, "note": "Peracute course — often fatal within a day of first signs" },
+    "geographic_prevalence": ["Punjab", "Haryana", "Uttar Pradesh", "Bihar", "Odisha"],
+    "seasonality": { "peak_months": ["June", "July", "August", "September"], "note": "Classic monsoon disease — stress + humidity trigger outbreaks" },
+    "vaccination": { "vaccine_name": "HS Oil Adjuvant Vaccine", "schedule": "Annual, pre-monsoon (May)", "efficacy_pct": 90, "govt_program": "State pre-monsoon vaccination camps" },
+    "treatment_supportive_management": ["Early high-dose antibiotics (sulphonamides/oxytetracycline) — must be immediate", "Anti-inflammatory support for throat swelling", "Isolate and reduce handling stress"],
+    "reporting_urgency": { "notifiable": true, "urgency_level": "Immediate (24h)", "reporting_authority": "State Animal Husbandry Dept", "legal_basis": "Prevention & Control of Infectious & Contagious Diseases in Animals Act, 2009" },
+    "recommended_containment_action": ["Isolate herd immediately", "Emergency vaccination of in-contact animals", "Avoid transport/overwork of herd during outbreak", "Safe carcass disposal", "Disinfect water/feed troughs"]
+  },
+  {
+    "id": "ndv_008",
+    "disease_name": { "en": "Newcastle Disease (Ranikhet)", "hi": "रानीखेत रोग", "pa": "ਰਾਣੀਖੇਤ ਬਿਮਾਰੀ" },
+    "abbreviation": "ND",
+    "species_affected": ["Poultry"],
+    "zoonotic": false,
+    "symptoms": {
+      "early": [ { "name": "Sudden drop in feed/egg production", "weight": 4 }, { "name": "Respiratory gasping/coughing", "weight": 5 } ],
+      "late": [ { "name": "Twisted neck / neurological signs", "weight": 9 }, { "name": "Greenish diarrhoea", "weight": 7 }, { "name": "High sudden flock mortality", "weight": 8 } ]
+    },
+    "incubation_period_days": { "min": 2, "max": 15, "typical": 5 },
+    "transmission_mode": ["Direct contact", "Airborne", "Contaminated feed/water/equipment"],
+    "severity": "High",
+    "mortality_characteristics": { "adult_mortality_rate_pct": 50, "young_mortality_rate_pct": 90, "note": "Velogenic strains can wipe out unvaccinated flocks within days" },
+    "geographic_prevalence": ["Tamil Nadu", "Andhra Pradesh", "West Bengal", "Punjab"],
+    "seasonality": { "peak_months": ["October", "November", "March", "April"], "note": "Seasonal transition months (temperature stress on flocks)" },
+    "vaccination": { "vaccine_name": "ND Lasota / R2B Vaccine", "schedule": "Day 7 and Day 28, then every 3 months", "efficacy_pct": 90, "govt_program": "State poultry extension vaccination schemes" },
+    "treatment_supportive_management": ["No antiviral treatment — supportive care only", "Vitamin/electrolyte supplementation", "Isolate sick birds, cull severely affected"],
+    "reporting_urgency": { "notifiable": true, "urgency_level": "Within 72h", "reporting_authority": "State Animal Husbandry / Poultry Dept", "legal_basis": "Prevention & Control of Infectious & Contagious Diseases in Animals Act, 2009" },
+    "recommended_containment_action": ["Isolate and cull severely affected birds", "Emergency vaccination of remaining flock", "Disinfect coops and equipment", "Restrict sale/movement of birds from the farm for 30 days"]
+  }
+]
