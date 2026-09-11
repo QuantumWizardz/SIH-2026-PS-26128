@@ -15,15 +15,21 @@ const resources = {
   gu: { translation: gu },
 };
 
+const persistedLang = localStorage.getItem('pr_lang') || 'en';
+
 i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'en', // Default language
+    lng: persistedLang, // Default language from local storage
     fallbackLng: 'mr', // IVR/alerts fallback logic defaults to Marathi as specified
     interpolation: {
       escapeValue: false, // React already escapes values
     },
   });
+
+i18n.on('languageChanged', (lng) => {
+  localStorage.setItem('pr_lang', lng);
+});
 
 export default i18n;

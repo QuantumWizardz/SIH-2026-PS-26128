@@ -19,9 +19,33 @@ import { TriageQueue } from './features/triage/TriageQueue';
 import { ApiIntegrations } from './features/integrations/ApiIntegrations';
 import { LandingPage } from './features/landing/LandingPage';
 
+const ROLE_ACCESS: Record<UserRole, string[]> = {
+  Farmer: ['/report', '/passport', '/book-appointment', '/symptom-checker', '/facilities', '/ivr'],
+  Veterinarian: ['/radar', '/knowledge', '/symptom-checker', '/facilities', '/passport', '/triage', '/book-appointment'],
+  FieldOfficer: ['/radar', '/command', '/facilities', '/weather', '/report', '/alerts', '/triage'],
+  Admin: ['/radar', '/command', '/facilities', '/weather', '/knowledge', '/symptom-checker', '/passport', '/report', '/ivr', '/alerts', '/triage', '/integrations'],
+};
+
+const NAV_ITEMS = [
+  { path: '/radar', label: 'nav.radar', defaultLabel: 'RADAR' },
+  { path: '/command', label: 'nav.command', defaultLabel: 'COMMAND' },
+  { path: '/facilities', label: 'nav.facilities', defaultLabel: 'FACILITIES' },
+  { path: '/weather', label: 'nav.weather', defaultLabel: 'WEATHER' },
+  { path: '/knowledge', label: 'nav.diseases', defaultLabel: 'DISEASES' },
+  { path: '/symptom-checker', label: 'nav.checker', defaultLabel: 'CHECKER' },
+  { path: '/passport', label: 'nav.passport', defaultLabel: 'PASSPORT' },
+  { path: '/report', label: 'nav.report', defaultLabel: 'REPORT' },
+  { path: '/ivr', label: 'nav.ivr', defaultLabel: 'IVR' },
+  { path: '/alerts', label: 'nav.alerts', defaultLabel: 'ALERTS' },
+];
+
 function Shell({ children }: { children: React.ReactNode }) {
   const { currentRole, setRole } = useStore();
-  const { i18n } = useTranslation();
+  const { t, i18n } = useTranslation();
+
+  const allowedNavItems = NAV_ITEMS.filter(item => 
+    ROLE_ACCESS[currentRole]?.includes(item.path)
+  );
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -29,31 +53,25 @@ function Shell({ children }: { children: React.ReactNode }) {
         <div className="flex items-center space-x-8">
           <Link to="/" className="font-extrabold text-xl tracking-tight">Pashu Rakshak</Link>
           <nav className="flex space-x-6 text-sm font-medium tracking-wide overflow-x-auto pb-1 max-w-2xl whitespace-nowrap scrollbar-hide">
-            <Link to="/radar" className="hover:text-terracotta transition-colors">RADAR</Link>
-            <Link to="/command" className="hover:text-terracotta transition-colors">COMMAND</Link>
-            <Link to="/facilities" className="hover:text-terracotta transition-colors">FACILITIES</Link>
-            <Link to="/weather" className="hover:text-terracotta transition-colors">WEATHER</Link>
-            <Link to="/knowledge" className="hover:text-terracotta transition-colors">DISEASES</Link>
-            <Link to="/symptom-checker" className="hover:text-terracotta transition-colors">CHECKER</Link>
-            <Link to="/passport" className="hover:text-terracotta transition-colors">PASSPORT</Link>
-            <Link to="/report" className="hover:text-terracotta transition-colors">REPORT</Link>
-            <Link to="/ivr" className="hover:text-terracotta transition-colors">IVR</Link>
-            <Link to="/alerts" className="hover:text-terracotta transition-colors">ALERTS</Link>
-            <Link to="/styleguide" className="hover:text-terracotta transition-colors">STYLEGUIDE</Link>
-            {/* Nav links based on role will go here */}
+            {allowedNavItems.map(item => (
+              <Link key={item.path} to={item.path} className="hover:text-terracotta transition-colors uppercase">
+                {t(item.label, item.defaultLabel)}
+              </Link>
+            ))}
           </nav>
         </div>
         <div className="flex items-center space-x-4">
           <select 
             value={currentRole} 
             onChange={(e) => setRole(e.target.value as UserRole)}
-            className="bg-transparent border-b border-espresso-40 text-sm py-1 outline-none focus:border-terracotta"
+            className="bg-transparent border-b border-espresso-40 text-sm py-1 outline-none focus:border-terracotta font-bold"
           >
             <option value="Farmer">Farmer</option>
             <option value="Veterinarian">Veterinarian</option>
             <option value="FieldOfficer">Field Officer</option>
             <option value="Admin">Admin</option>
           </select>
+
           <select
             value={i18n.language}
             onChange={(e) => i18n.changeLanguage(e.target.value)}

@@ -1,20 +1,23 @@
 import { Link } from 'react-router-dom';
-import { Radar, BookOpen, CloudRain, Map, CreditCard, Activity, PhoneCall, Zap, Stethoscope } from 'lucide-react';
+import { Radar, BookOpen, CloudRain, Map, CreditCard, Activity, PhoneCall, Zap, Stethoscope, BellRing, Server } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
 
 export function LandingPage() {
+  const { t } = useTranslation();
+
   const features = [
-    { title: 'Outbreak Radar', desc: 'Real-time spatial clustering & containment mapping', icon: Radar, to: '/radar', color: 'bg-terracotta text-cream' },
-    { title: 'Triage Queue', desc: 'Automated prioritization of incident reports', icon: Activity, to: '/triage', color: 'bg-risk-deep-rust text-cream' },
-    { title: 'Command Centre', desc: 'Geospatial market and route containment', icon: Map, to: '/command', color: 'bg-espresso text-cream' },
-    { title: 'Weather Context', desc: 'Environmental catalyst tracking (IMD synced)', icon: CloudRain, to: '/weather', color: 'bg-[#3B82F6] text-white' },
-    { title: 'Disease Knowledge', desc: 'Exploratory database and clinical guidelines', icon: BookOpen, to: '/knowledge', color: 'bg-[#10B981] text-white' },
-    { title: 'Symptom Checker', desc: 'Self-serve diagnosis and auto-escalation', icon: Stethoscope, to: '/symptom-checker', color: 'bg-[#8B5CF6] text-white' },
-    { title: 'Facility Finder', desc: 'Locate nearest hospitals and cold chains', icon: Map, to: '/facilities', color: 'bg-[#F59E0B] text-white' },
-    { title: 'Animal Passport', desc: 'Digital identity and vaccination records', icon: CreditCard, to: '/passport', color: 'bg-[#6366F1] text-white' },
-    { title: 'Offline Reporter', desc: 'Store-and-forward mobile reporting', icon: Zap, to: '/report', color: 'bg-risk-moss text-white' },
-    { title: 'IVR Simulator', desc: 'Feature-phone reporting emulation', icon: PhoneCall, to: '/ivr', color: 'bg-risk-ochre text-white' },
-    { title: 'Alerts Dispatcher', desc: 'Multilingual mass-notification via SMS/WA', icon: BellRing, to: '/alerts', color: 'bg-risk-burnt-orange text-white' },
-    { title: 'API Integrations', desc: 'Status of INAPH / e-Pashuhaat bridges', icon: Server, to: '/integrations', color: 'bg-slate-700 text-white' }
+    { title: t('landing.features.radar.title'), desc: t('landing.features.radar.desc'), icon: Radar, to: '/radar', color: 'bg-terracotta text-cream' },
+    { title: t('landing.features.triage.title'), desc: t('landing.features.triage.desc'), icon: Activity, to: '/triage', color: 'bg-risk-deep-rust text-cream' },
+    { title: t('landing.features.command.title'), desc: t('landing.features.command.desc'), icon: Map, to: '/command', color: 'bg-espresso text-cream' },
+    { title: t('landing.features.weather.title'), desc: t('landing.features.weather.desc'), icon: CloudRain, to: '/weather', color: 'bg-[#3B82F6] text-white' },
+    { title: t('landing.features.knowledge.title'), desc: t('landing.features.knowledge.desc'), icon: BookOpen, to: '/knowledge', color: 'bg-[#10B981] text-white' },
+    { title: t('landing.features.symptom.title'), desc: t('landing.features.symptom.desc'), icon: Stethoscope, to: '/symptom-checker', color: 'bg-[#8B5CF6] text-white' },
+    { title: t('landing.features.facility.title'), desc: t('landing.features.facility.desc'), icon: Map, to: '/facilities', color: 'bg-[#F59E0B] text-white' },
+    { title: t('landing.features.passport.title'), desc: t('landing.features.passport.desc'), icon: CreditCard, to: '/passport', color: 'bg-[#6366F1] text-white' },
+    { title: t('landing.features.report.title'), desc: t('landing.features.report.desc'), icon: Zap, to: '/report', color: 'bg-risk-moss text-white' },
+    { title: t('landing.features.ivr.title'), desc: t('landing.features.ivr.desc'), icon: PhoneCall, to: '/ivr', color: 'bg-risk-ochre text-white' },
+    { title: t('landing.features.alerts.title'), desc: t('landing.features.alerts.desc'), icon: BellRing, to: '/alerts', color: 'bg-risk-burnt-orange text-white' },
+    { title: t('landing.features.api.title'), desc: t('landing.features.api.desc'), icon: Server, to: '/integrations', color: 'bg-slate-700 text-white' }
   ];
 
   return (
@@ -22,11 +25,11 @@ export function LandingPage() {
       <div className="max-w-6xl mx-auto space-y-16">
         <div className="text-center space-y-6 max-w-3xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-extrabold tracking-tight text-espresso leading-tight">
-            Livestock Health <br/>
-            <span className="text-terracotta">Intelligence Platform</span>
+            {t('landing.hero.title_part1')} <br/>
+            <span className="text-terracotta">{t('landing.hero.title_part2')}</span>
           </h1>
           <p className="text-xl text-espresso-70 leading-relaxed">
-            An end-to-end prototype designed to detect, contain, and manage disease outbreaks using geospatial analytics and predictive modeling.
+            {t('landing.hero.subtitle')}
           </p>
         </div>
 
@@ -48,5 +51,4 @@ export function LandingPage() {
   );
 }
 
-// Ensure lucide imports for LandingPage
-import { BellRing, Server } from 'lucide-react';
+

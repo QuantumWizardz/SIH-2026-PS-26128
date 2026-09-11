@@ -1,5 +1,52 @@
 {
-  "app": {
-    "title": "Pashu Rakshak"
+  "app": { "title": "Pashu Rakshak" },
+  "nav": { "radar": "RADAR", "command": "COMMAND", "facilities": "FACILITIES", "weather": "WEATHER", "diseases": "DISEASES", "checker": "CHECKER", "passport": "PASSPORT", "report": "REPORT", "ivr": "IVR", "alerts": "ALERTS" },
+  "common": { "close": "Close" },
+  "landing": {
+    "hero": {
+      "title_part1": "Livestock Health",
+      "title_part2": "Intelligence Platform",
+      "subtitle": "An end-to-end prototype designed to detect, contain, and manage disease outbreaks using geospatial analytics and predictive modeling."
+    },
+    "features": {
+      "radar": { "title": "Outbreak Radar", "desc": "Real-time spatial clustering & containment mapping" },
+      "triage": { "title": "Triage Queue", "desc": "Automated prioritization of incident reports" },
+      "command": { "title": "Command Centre", "desc": "Geospatial market and route containment" },
+      "weather": { "title": "Weather Context", "desc": "Environmental catalyst tracking (IMD synced)" },
+      "knowledge": { "title": "Disease Knowledge", "desc": "Exploratory database and clinical guidelines" },
+      "symptom": { "title": "Symptom Checker", "desc": "Self-serve diagnosis and auto-escalation" },
+      "facility": { "title": "Facility Finder", "desc": "Locate nearest hospitals and cold chains" },
+      "passport": { "title": "Animal Passport", "desc": "Digital identity and vaccination records" },
+      "report": { "title": "Offline Reporter", "desc": "Store-and-forward mobile reporting" },
+      "ivr": { "title": "IVR Simulator", "desc": "Feature-phone reporting emulation" },
+      "alerts": { "title": "Alerts Dispatcher", "desc": "Multilingual mass-notification via SMS/WA" },
+      "api": { "title": "API Integrations", "desc": "Status of INAPH / e-Pashuhaat bridges" }
+    }
+  },
+  "knowledge": {
+    "title": "Knowledge Base",
+    "subtitle": "Browse standard definitions for surveillance diseases.",
+    "search_placeholder": "Search disease...",
+    "all_species": "All Species",
+    "species_label": "Species:",
+    "transmission_label": "Transmission:",
+    "view_protocol": "View Full Protocol",
+    "zoonotic_risk": "⚠️ ZOONOTIC RISK",
+    "species": { "cattle": "Cattle", "buffalo": "Buffalo", "goat": "Goat", "sheep": "Sheep", "pig": "Pig", "poultry": "Poultry" }
+  },
+  "symptom": {
+    "title": "Symptom Checker",
+    "subtitle": "Identify potential diseases based on observed clinical signs.",
+    "step1": "1. Select Species",
+    "step2": "2. Select Symptoms",
+    "analyze": "Analyze Symptoms",
+    "results_title": "Analysis Results",
+    "no_matches": "No strong matches found. Please consult a veterinarian.",
+    "match_pct": "% Match",
+    "based_on": "Based on: ",
+    "escalation_title": "Emergency Auto-Escalation",
+    "escalation_desc1": "The symptoms you've reported strongly indicate Foot-and-Mouth Disease (FMD).",
+    "escalation_desc2": "This is a highly contagious notifiable disease. An official report has been automatically logged with the District Veterinary Officer, and your local facility has been alerted.",
+    "view_radar": "View Command Radar"
   }
 }

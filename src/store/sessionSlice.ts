@@ -9,8 +9,15 @@ export interface SessionState {
   userId: string;
 }
 
-export const createSessionSlice: StateCreator<SessionState> = (set) => ({
-  currentRole: 'Admin', // Default to admin for full dashboard access
-  userId: 'U-ADMIN-01',
-  setRole: (role) => set({ currentRole: role }),
-});
+export const createSessionSlice: StateCreator<SessionState> = (set) => {
+  const initialRole = (localStorage.getItem('pr_role') as UserRole) || 'Admin';
+
+  return {
+    currentRole: initialRole, // Default to admin for full dashboard access
+    userId: 'U-ADMIN-01',
+    setRole: (role) => {
+      localStorage.setItem('pr_role', role);
+      set({ currentRole: role });
+    },
+  };
+};
