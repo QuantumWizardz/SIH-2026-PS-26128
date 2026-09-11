@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-import { MessageSquare, X, Send } from 'lucide-react';
+import { MessageSquare, X, Send, Mic } from 'lucide-react';
 import { processUserMessage } from '../services/assistant';
 import type { ChatMessage } from '../services/assistant';
 import { RiskBadge } from '../design/RiskBadge';
@@ -11,6 +11,7 @@ export function AssistantWidget() {
   ]);
   const [input, setInput] = useState('');
   const [isTyping, setIsTyping] = useState(false);
+  const [isRecording, setIsRecording] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -19,12 +20,32 @@ export function AssistantWidget() {
     }
   }, [messages, isTyping]);
 
-  const handleSend = async () => {
-    if (!input.trim()) return;
-
-    const userMsg: ChatMessage = { id: crypto.randomUUID(), sender: 'user', text: input };
-    setMessages(prev => [...prev, userMsg]);
+  const handleMicClick = () => {
+    if (isRecording) return;
+    setIsRecording(true);
     setInput('');
+    
+    // Simulate 3 seconds of recording, then "transcribe" a hardcoded sentence
+    setTimeout(() => {
+      setIsRecording(false);
+      setInput('My cow has a fever.');
+    }, 3000);
+  };
+
+  const SUGGESTIONS = [
+    "What are the symptoms of LSD?",
+    "Where is the nearest lab?",
+    "Are there any weather alerts?",
+    "I need to book a vet appointment."
+  ];
+
+  const handleSend = async (overrideText?: string) => {
+    const textToSend = typeof overrideText === 'string' ? overrideText : input;
+    if (!textToSend.trim()) return;
+
+    const userMsg: ChatMessage = { id: crypto.randomUUID(), sender: 'user', text: textToSend };
+    setMessages(prev => [...prev, userMsg]);
+    if (typeof overrideText !== 'string') setInput('');
     setIsTyping(true);
 
     const reply = await processUserMessage(userMsg.text);
@@ -103,19 +124,38 @@ export function AssistantWidget() {
             )}
           </div>
 
+          <div className="px-4 pb-2 flex flex-wrap gap-2">
+            {SUGGESTIONS.map((s, i) => (
+              <button 
+                key={i} 
+                onClick={() => handleSend(s)}
+                className="text-[10px] bg-white border border-espresso/20 text-espresso px-2 py-1 rounded-full hover:bg-espresso/5 transition-colors text-left"
+              >
+                {s}
+              </button>
+            ))}
+          </div>
+
           <div className="p-4 bg-white border-t border-espresso/10 flex items-center gap-2">
+            <button 
+              onClick={handleMicClick}
+              className={`w-10 h-10 rounded-full flex items-center justify-center transition-colors flex-shrink-0 ${isRecording ? 'bg-risk-deep-rust text-white animate-pulse' : 'bg-espresso/10 text-espresso hover:bg-espresso/20'}`}
+            >
+              <Mic size={18} />
+            </button>
             <input 
               type="text" 
               value={input}
               onChange={e => setInput(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && handleSend()}
-              placeholder="Type your message..."
-              className="flex-1 bg-transparent outline-none border border-espresso/20 rounded-full px-4 py-2 text-sm focus:border-terracotta"
+              placeholder={isRecording ? "Listening..." : "Type your message..."}
+              disabled={isRecording}
+              className="flex-1 min-w-0 bg-transparent outline-none border border-espresso/20 rounded-full px-4 py-2 text-sm focus:border-terracotta disabled:opacity-50"
             />
             <button 
-              onClick={handleSend}
-              className="w-10 h-10 bg-terracotta text-cream rounded-full flex items-center justify-center hover:bg-clay transition-colors disabled:opacity-50"
-              disabled={!input.trim() || isTyping}
+              onClick={() => handleSend()}
+              className="w-10 h-10 bg-terracotta text-cream rounded-full flex items-center justify-center hover:bg-clay transition-colors disabled:opacity-50 flex-shrink-0"
+              disabled={!input.trim() || isTyping || isRecording}
             >
               <Send size={16} />
             </button>

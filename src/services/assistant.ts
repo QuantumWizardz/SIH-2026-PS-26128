@@ -75,8 +75,24 @@ export const processUserMessage = async (message: string): Promise<ChatMessage> 
     };
   }
   
+  // Flow 4: Weather Alerts
+  // "Are there any alerts?" or "weather"
+  else if (lowerMsg.includes('alert') || lowerMsg.includes('weather') || lowerMsg.includes('rain')) {
+    responseText = "⚠️ WEATHER ALERT: Heavy rain is expected in Patiala tomorrow. Please keep animals indoors and secure all feed.";
+  }
+
+  // Flow 5: Vet / Appointment
+  // "Speak to a vet" or "book appointment"
+  else if (lowerMsg.includes('vet') || lowerMsg.includes('appointment') || lowerMsg.includes('doctor')) {
+    responseText = "I can help you connect with a veterinary officer. The next available appointment in your district (Patiala) is tomorrow at 10:00 AM. Would you like me to book it?";
+  }
+
   else if (lowerMsg.includes('v01') || lowerMsg.includes('village')) {
     responseText = "Thank you. Your report has been submitted successfully to the local authorities.";
+  }
+  
+  else if (lowerMsg === 'yes' || lowerMsg === 'book it') {
+    responseText = "Your appointment has been successfully booked for tomorrow at 10:00 AM. You will receive an SMS confirmation shortly.";
   }
 
   return new Promise((resolve) => {

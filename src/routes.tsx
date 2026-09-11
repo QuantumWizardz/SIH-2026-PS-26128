@@ -18,6 +18,7 @@ import { AlertsDispatcher } from './features/simulation/AlertsDispatcher';
 import { TriageQueue } from './features/triage/TriageQueue';
 import { ApiIntegrations } from './features/integrations/ApiIntegrations';
 import { LandingPage } from './features/landing/LandingPage';
+import { AssistantWidget } from './components/AssistantWidget';
 
 const ROLE_ACCESS: Record<UserRole, string[]> = {
   Farmer: ['/report', '/passport', '/book-appointment', '/symptom-checker', '/facilities', '/ivr'],
@@ -92,6 +93,7 @@ function Shell({ children }: { children: React.ReactNode }) {
       <main className="flex-1 w-full max-w-[1280px] mx-auto p-6 md:p-12 lg:p-16">
         {children}
       </main>
+      <AssistantWidget />
     </div>
   );
 }
